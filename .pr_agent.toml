@@ -1,0 +1,14 @@
+# Important: This file contains all available configuration options.
+# Do not copy this entire file to your repository configuration.
+# Your repository configuration should only include options you wish to override from the defaults.
+#
+# Use this page: 'https://qodo-merge-docs.qodo.ai/ai_search/' to ask questions about the configuration options.
+
+[config]
+
+# Configurations
+response_language = "it-IT" # Language locales code for PR responses in ISO 3166 and ISO 639 format (e.g., "en-US", "it-IT", "zh-CN", ...)
+
+# bring repo metadata 💎
+add_repo_metadata=true # if true, will try to add metadata from files like 'AGENTS.MD', 'CLAUDE.MD', 'QODO.MD'
+add_repo_metadata_file_list =["qodo.md"]
