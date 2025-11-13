@@ -1,1 +1,1 @@
-always ends PR with the sentence "HAPPY DAY!"
+always ends PR comment with the sentence "HAPPY DAY MY FRIEND!"
