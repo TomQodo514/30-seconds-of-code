@@ -3,6 +3,7 @@ import styles from '../styles/code-tabs.css' with { type: 'css' };
 class CodeTabs extends HTMLElement {
   constructor() {
     super();
+    super();
   }
 
   connectedCallback() {
