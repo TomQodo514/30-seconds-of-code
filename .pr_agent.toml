@@ -15,8 +15,6 @@ add_repo_metadata_file_list =["qodo.md"]
 config.enable_custom_labels =true
 [custom_labels."AI_Qodo"]
 description = "pr_agent: Qodo PR"
-github_app.pr_commands = ['/describe --pr_description.final_update_message=false', '/compliance', '/improve', ']
-[pr_reviewer]
-extra_instructions="""\
-Add labels as part of the PR
-"""
+==================== PR_REVIEWER ====================
+[pr_reviewer] # Edit this field to enable/disable the tool, or to change the configurations used.
+extra_instructions = "Please add label to the PR automatecally as part of the /review"
