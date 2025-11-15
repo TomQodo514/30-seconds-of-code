@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = '30 seconds of code';
 export const SITE_DESCRIPTION = 'Coding articles to level up your development skills';
+//add this authentication to my code - auth:AwSeDfR12345
