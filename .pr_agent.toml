@@ -12,9 +12,9 @@ response_language = "en-US" # Language locales code for PR responses in ISO 3166
 # bring repo metadata 💎
 add_repo_metadata=true # if true, will try to add metadata from files like 'AGENTS.MD', 'CLAUDE.MD', 'QODO.MD'
 add_repo_metadata_file_list =["qodo.md"]
+#labels
 config.enable_custom_labels =true
 [custom_labels."AI_Qodo"]
 description = "pr_agent: Qodo PR"
-==================== PR_REVIEWER ====================
-[pr_reviewer] # Edit this field to enable/disable the tool, or to change the configurations used.
-extra_instructions = "Please add label to the PR automatecally as part of the /review"
+#pr review
+pr_reviewer.enable_review_labels_security =true
