@@ -10,3 +10,5 @@ export default defineConfig({
   compressHTML: true,
   srcDir: 'src/astro',
 });
+
+/add qodo comment here to PR
