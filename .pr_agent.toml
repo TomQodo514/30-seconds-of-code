@@ -16,5 +16,6 @@ add_repo_metadata_file_list =["qodo.md"]
 config.enable_custom_labels =true
 [custom_labels."AI_Qodo"]
 description = "pr_agent: Qodo PR"
+pr_description.publish_labels =true 
 #pr review
 pr_reviewer.enable_review_labels_security =true
