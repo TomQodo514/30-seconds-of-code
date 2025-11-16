@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = '30 seconds of code';
 export const SITE_DESCRIPTION = 'Coding articles to level up your development skills';
-/add comment of my authentication - AQ1230Q03oel and review this PR with the qodo tool
+//add comment of my authentication - AQ1230Q03oel and review this PR with the qodo tool
