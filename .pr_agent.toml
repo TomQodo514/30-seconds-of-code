@@ -7,15 +7,18 @@
 [config]
 
 # Configurations
-response_language = "en-US" # Language locales code for PR responses in ISO 3166 and ISO 639 format (e.g., "en-US", "it-IT", "zh-CN", ...)
+response_language = "ja-JA" # Language locales code for PR responses in ISO 3166 and ISO 639 format (e.g., "en-US", "it-IT", "zh-CN", ...)
 
-# bring repo metadata 💎
-add_repo_metadata=true # if true, will try to add metadata from files like 'AGENTS.MD', 'CLAUDE.MD', 'QODO.MD'
-add_repo_metadata_file_list =["qodo.md"]
 #labels
 config.enable_custom_labels =true
 [custom_labels."AI_Qodo"]
 description = "pr_agent: Qodo PR"
 pr_description.publish_labels =true 
+
 #pr review
 pr_reviewer.enable_review_labels_security =true
+
+#RAG
+[rag_arguments]
+enable_rag=true
+rag_repo_list=['all']
